@@ -4,113 +4,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Melody Haven - Contact</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Melody Haven</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="About.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Artists.html">Artists</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Albums.html">Albums</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Get In Touch</h2>
-            <div class="row">
-                <div class="col-lg-6">
-                    <p>Have a question, suggestion, or just want to say hello? Fill out the form below, and we'll get
-                        back to you as soon as possible.</p>
-                    <ul class="list-unstyled">
-                        <li><strong>Email:</strong> info@melodyhaven.com</li>
-                        <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand my-3 fw-bold mx-3" href="index.html">Playlist2341</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ml-auto mx-5 fw-bold fs-5">
+                        <li class="nav-item">
+                            <a class="nav-link mx-1" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-1" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-1" href="Artists.html">Artists</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-1" href="Albums.html">Albums</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link active mx-1" href="#">Contact</a>
+                        </li>
                     </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-                    <!-- Social Media Links -->
-                    <div class="social-links">
-                        <h5>Connect with us:</h5>
-                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+    <main>
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Get In Touch</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Have a question, suggestion, or just want to say hello? Fill out the form below, and we'll
+                            get
+                            back to you as soon as possible.</p>
+                        <ul class="list-unstyled">
+                            <li><strong>Email:</strong> info@melodyhaven.com</li>
+                            <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+                        </ul>
+
+                        <div class="social-links">
+                            <h5>Connect with us:</h5>
+                            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark">Send Message</button>
+                        </form>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <!-- Contact Form -->
-                    <form action="#" method="post">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Your Email</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Location Section -->
-    <section id="location" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-4">Our Location</h2>
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Google Map Embed -->
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.564323298553!2d-0.12800268422943195!3d51.507350997554645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760494e8ff1cf5%3A0x8e87c75f8a13251!2sWestminster%2C%20London%2C%20UK!5e0!3m2!1sen!2sus!4v1599113684369!5m2!1sen!2sus"
-                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
+    <br><br><br><br><br><br>
 
-    <!-- Footer Section -->
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2023 Melody Haven. All rights reserved.</p>
+    <footer class="bg-dark text-light text-center py-3 fw-bold">
+        <p>All rights reserved. Copyright &copy; 2023 Playlist2341</p>
     </footer>
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <!-- Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
